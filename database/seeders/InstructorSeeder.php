@@ -21,7 +21,7 @@ class InstructorSeeder extends Seeder
         $instructor = UserRepository::create([
             'name' => 'instructor',
             'phone' => '01000000618913',
-            'email' => 'instructor@readylms.com',
+            'email' => 'instructor@rightlearning.com',
             'is_active' => false,
             'is_admin' => false,
             'email_verified_at' => now(),

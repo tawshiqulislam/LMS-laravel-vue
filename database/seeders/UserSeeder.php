@@ -37,7 +37,7 @@ class UserSeeder extends Seeder
         // Admin User
         $admin = UserRepository::query()->updateOrCreate(
             [
-                'email' => 'admin@readylms.com',
+                'email' => 'admin@rightlearning.com',
             ],
             [
                 'name' => 'Administrator',
@@ -76,7 +76,7 @@ class UserSeeder extends Seeder
         // General User
         UserRepository::query()->updateOrCreate(
             [
-                'email' => 'user@readylms.com',
+                'email' => 'user@rightlearning.com',
             ],
             [
                 'name' => 'Demo User',

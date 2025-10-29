@@ -37,6 +37,6 @@ class CreateSuperAdmin extends Controller
         $localAdmin->assignRole('admin');
 
         // Redirect to the dashboard or any other page
-        return redirect()->route('admin.login')->with('success', 'You are ready to use ReadyLMS! Please login with your credentials.');
+        return redirect()->route('admin.login')->with('success', 'You are ready to use Right Learning LMS! Please login with your credentials.');
     }
 }

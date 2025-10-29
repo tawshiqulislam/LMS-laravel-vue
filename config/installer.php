@@ -169,7 +169,7 @@ return [
     | set a verification code for active from market
     |--------------------------------------------------------------------------
     */
-    'product' => 'readylms',
+    'product' => 'rightlearning',
     //which product you verify same as supported server
     'verify_code' => 'sH3UFihLekiyJuDR1XeJyjRTK3JWWjVjOWEyOURGdVQrV3l5cVN5Q2h0YVFtTXlGSmdGZ2VRNk1UclVKaDNLcWRmT1hXUC81ZHZRUE1oWUxaZjlDa0h0NEVQc3RJdjRad2F0dCtnPT0=',
     'verify_purchase' => true,

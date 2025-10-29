@@ -13,7 +13,7 @@ class AssignRoleSeeder extends Seeder
      */
     public function run(): void
     {
-        $user = UserRepository::query()->where('email', 'admin@readylms.com')->orWhere('email', 'admin@example.com')->first();
+        $user = UserRepository::query()->where('email', 'admin@rightlearning.com')->orWhere('email', 'admin@example.com')->first();
         $user->assignRole('admin');
     }
 }

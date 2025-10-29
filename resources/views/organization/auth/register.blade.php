@@ -81,7 +81,7 @@
 <body>
     <div class="d-flex vh-100">
         @if (config('app.env') == 'local')
-            <div class="powerBy">Powered by RazinSoft ©{{ now()->format('Y') }}</div>
+            <div class="powerBy">Developed by Md Tawshiqul Islam Rafi ©{{ now()->format('Y') }}</div>
             <div class="version-badge">v{{ config('app.version') }}</div>
         @endif
         <div class="container mx-auto my-auto">

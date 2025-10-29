@@ -73,7 +73,7 @@
 <body>
     <div class="d-flex vh-100">
         @if (config('app.env') == 'local')
-            <div class="powerBy">Powered by RazinSoft ©{{ now()->format('Y') }}</div>
+            <div class="powerBy">Developed by Md Tawshiqul Islam Rafi ©{{ now()->format('Y') }}</div>
             <div class="version-badge">v{{ config('app.version') }}</div>
         @endif
         <div class="container mx-auto my-auto">
@@ -165,13 +165,13 @@
                                 <div class="row mt-4">
                                     <div class="col-12 col-md-6" style="cursor: pointer">
                                         <div class="border border-2 border-secondary p-2 d-flex align-items-start justify-content-between gap-2 rounded-3 mb-4"
-                                            onclick="email.value = 'admin@readylms.com'; passwordInput.value = 'secret@123'">
+                                            onclick="email.value = 'admin@rightlearning.com'; passwordInput.value = 'secret@123'">
                                             <div>
-                                                <strong>{{ __('Email') }}:</strong> admin@readylms.com <br>
+                                                <strong>{{ __('Email') }}:</strong> admin@rightlearning.com <br>
                                                 <strong>{{ __('Password') }}:</strong> secret@123
                                             </div>
                                             <button
-                                                onclick="email.value = 'admin@readylms.com'; passwordInput.value = 'secret@123'"
+                                                onclick="email.value = 'admin@rightlearning.com'; passwordInput.value = 'secret@123'"
                                                 class="btn btn-sm btn-outline-secondary small">
                                                 <i class="bi bi-clipboard-check-fill"></i>
                                             </button>
@@ -179,13 +179,13 @@
                                     </div>
                                     <div class="col-12 col-md-6" style="cursor: pointer">
                                         <div class="border border-2 border-secondary p-2 d-flex align-items-start justify-content-between gap-2 rounded-3 mb-4"
-                                            onclick="email.value = 'instructor@readylms.com'; passwordInput.value = 'secret'">
+                                            onclick="email.value = 'instructor@rightlearning.com'; passwordInput.value = 'secret'">
                                             <div>
-                                                <strong>Email:</strong> instructor@readylms.com <br>
+                                                <strong>Email:</strong> instructor@rightlearning.com <br>
                                                 <strong>Password:</strong> secret
                                             </div>
                                             <button
-                                                onclick="email.value = 'instructor@readylms.com'; passwordInput.value = 'secret'"
+                                                onclick="email.value = 'instructor@rightlearning.com'; passwordInput.value = 'secret'"
                                                 class="btn btn-sm btn-outline-secondary small">
                                                 <i class="bi bi-clipboard-check-fill"></i>
                                             </button>
@@ -193,13 +193,13 @@
                                     </div>
                                     <div class="col-12 col-md-6" style="cursor: pointer">
                                         <div class="border border-2 border-secondary p-2 d-flex align-items-start justify-content-between gap-2 rounded-3 mb-4"
-                                            onclick="email.value = 'org@readylms.com'; passwordInput.value = 'secret@org'">
+                                            onclick="email.value = 'org@rightlearning.com'; passwordInput.value = 'secret@org'">
                                             <div>
-                                                <strong>Email:</strong> org@readylms.com<br>
+                                                <strong>Email:</strong> org@rightlearning.com<br>
                                                 <strong>Password:</strong> secret@org
                                             </div>
                                             <button
-                                                onclick="email.value = 'org@readylms.com'; passwordInput.value = 'secret@org'"
+                                                onclick="email.value = 'org@rightlearning.com'; passwordInput.value = 'secret@org'"
                                                 class="btn btn-sm btn-outline-secondary small">
                                                 <i class="bi bi-clipboard-check-fill"></i>
                                             </button>

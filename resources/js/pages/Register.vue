@@ -7,8 +7,8 @@
                         <div v-if="masterStore?.masterData?.mode == 'local'" class="version-badge">v{{
                             masterStore?.masterData?.version }}
                         </div>
-                        <div v-if="masterStore?.masterData?.mode == 'local'" class="powerBy">Powered by
-                            RazinSoft &copy;{{ new Date().getFullYear() }}
+                        <div v-if="masterStore?.masterData?.mode == 'local'" class="powerBy">Developed by
+                            Md Tawshiqul Islam Rafi &copy;{{ new Date().getFullYear() }}
                         </div>
                         <div class="card-body" :class="masterStore?.masterData?.mode == 'local' ? 'pb-5' : 'pb-0'">
                             <div class="text-start logo-img mb-2">

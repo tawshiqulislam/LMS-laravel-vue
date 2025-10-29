@@ -4,7 +4,7 @@
 return [
     "footer_description" => "Build skills with courses, certificates and get online knowledge from our world-class platform.",
     "footer_contact" => "+8801963953998",
-    "footer_email" => "support@razinsoft.com",
+    "footer_email" => "tawshiq.rafi02@gmail.com",
     "footer_social_icons" => [
         [
             "title" => "Facebook",

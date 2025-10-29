@@ -15,7 +15,7 @@ class UserUpdatePasswordSeeder extends Seeder
      */
     public function run(): void
     {
-        $user = UserRepository::query()->where('email', 'admin@readylms.com')->first();
+        $user = UserRepository::query()->where('email', 'admin@rightlearning.com')->first();
 
         $user->update([
             'password' => Hash::make('secret@123'),

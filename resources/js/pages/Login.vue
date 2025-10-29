@@ -56,10 +56,10 @@
                                     <div v-if="masterStore?.masterData?.mode == 'local'"
                                         class="border p-3 d-flex flex-wrap gap-3 align-items-center justify-content-between rounded-4 my-3">
                                         <div>
-                                            <strong>{{ $t('Email') }}:</strong> user@readylms.com <br>
+                                            <strong>{{ $t('Email') }}:</strong> user@rightlearning.com <br>
                                             <strong>{{ $t('Password') }}:</strong> secret@123
                                         </div>
-                                        <button @click="copyDemoCredentials('user@readylms.com', 'secret@123')"
+                                        <button @click="copyDemoCredentials('user@rightlearning.com', 'secret@123')"
                                             class="btn btn-sm btn-outline-primary small float-end">{{ $t('Copy')
                                             }}</button>
                                     </div>

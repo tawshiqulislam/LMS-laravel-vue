@@ -14,7 +14,7 @@ class RecoverStudentSeeder extends Seeder
      */
     public function run(): void
     {
-        $user = UserRepository::query()->where('email', 'user@readylms.com')->first();
+        $user = UserRepository::query()->where('email', 'user@rightlearning.com')->first();
         if ($user) {
             $instructor = InstructorRepository::query()->where('user_id', $user->id)->first();
             if ($instructor) {

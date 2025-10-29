@@ -18,7 +18,7 @@ class OrganizationSeeder extends Seeder
     {
         $organization = OrganizationRepository::query()->updateOrCreate(
             [
-                'email' => 'org@readylms.com',
+                'email' => 'org@rightlearning.com',
             ],
             [
                 'name' => 'Organization A',
@@ -27,7 +27,7 @@ class OrganizationSeeder extends Seeder
         );
 
         $user = UserRepository::query()->updateOrCreate([
-            'email' => 'org@readylms.com',
+            'email' => 'org@rightlearning.com',
         ], [
             'name' => 'Organization A',
             'phone' => '011' . rand(100000000, 999999999),
