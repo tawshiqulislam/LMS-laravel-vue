@@ -1,1 +1,5 @@
 [2025-10-29 14:28:48] production.INFO: AccessGuardMiddleware triggered {"env":"production","isLocal":false,"url":"http://localhost:8000/admin/setting/update"} 
+[2025-10-29 15:48:45] production.INFO: AccessGuardMiddleware triggered {"env":"production","isLocal":false,"url":"http://localhost:8000/api/profile/update"} 
+[2025-10-29 15:49:13] production.INFO: AccessGuardMiddleware triggered {"env":"production","isLocal":false,"url":"http://localhost:8000/api/profile/update"} 
+[2025-10-29 15:52:50] production.INFO: AccessGuardMiddleware triggered {"env":"production","isLocal":false,"url":"http://localhost:8000/api/profile/update"} 
+[2025-10-29 15:53:10] production.INFO: AccessGuardMiddleware triggered {"env":"production","isLocal":false,"url":"http://localhost:8000/api/profile/update"} 

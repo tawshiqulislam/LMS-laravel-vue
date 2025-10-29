@@ -26,7 +26,7 @@ class CertificateSeeder extends Seeder
                 'author_signature_id' => null,
                 'certificate_title' => 'Achievement',
                 'certificate_short_text' => 'This Certificate is Proudly Presented to',
-                'certificate_text' => 'This certificate is proudly presented for successfully completing the {course_name} Course with outstanding dedication and excellence. Your commitment to learning and achievement is truly commendable. Presented by Ready LMS.',
+                'certificate_text' => 'This certificate is proudly presented for successfully completing the {course_name} Course with outstanding dedication and excellence. Your commitment to learning and achievement is truly commendable. Presented by Right Learning.',
                 'author_name' => 'Fahim Hossain Munna',
                 'author_designation' => "Funder & CEO of LMS",
             ]

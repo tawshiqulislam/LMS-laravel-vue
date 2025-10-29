@@ -68,7 +68,7 @@ return [
             'APP_NAME' => [
                 'rule' => 'required|string|max:50',
                 'label' => 'App name',
-                'placeholder' => 'e.g: Ready LMS',
+                'placeholder' => 'e.g: Right Learning LMS',
                 'type' => 'text'
             ],
             'APP_URL' => [
